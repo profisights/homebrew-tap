@@ -2,7 +2,7 @@
 class Mothership < Formula
   desc "Command-line client for Mothership ERP"
   homepage "https://github.com/profisights/homebrew-tap"
-  version "0.1.2"
+  version "0.1.3"
 
   depends_on :macos
   on_macos do
@@ -10,13 +10,13 @@ class Mothership < Formula
   end
 
   on_arm do
-    url "https://github.com/profisights/homebrew-tap/releases/download/cli-v0.1.2/mothership-0.1.2-aarch64-apple-darwin.tar.gz"
-    sha256 "1f96d441fa396861d81343ff4d5fc672537ab02725cc723235b94b9761301ab9"
+    url "https://github.com/profisights/homebrew-tap/releases/download/cli-v0.1.3/mothership-0.1.3-aarch64-apple-darwin.tar.gz"
+    sha256 "921272750a03c15478248ef3aba89ed9d0cf454b0a5d317d513f59fd3ad220b7"
   end
 
   on_intel do
-    url "https://github.com/profisights/homebrew-tap/releases/download/cli-v0.1.2/mothership-0.1.2-x86_64-apple-darwin.tar.gz"
-    sha256 "5faa8f2afebe71b5ad3b7624240908edb534e922902c6c7b6cc9731bb38eb3fb"
+    url "https://github.com/profisights/homebrew-tap/releases/download/cli-v0.1.3/mothership-0.1.3-x86_64-apple-darwin.tar.gz"
+    sha256 "c16b98d8959667b9a5cf7cb282bc82922076ddf3a99e0e383de2f661316f7f9d"
   end
 
   def install
